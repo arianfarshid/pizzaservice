@@ -1,0 +1,1 @@
+Das ist ein Projekt, das ich im Rahmen eines Praktikums an der Hochschule zu absolvieren hatte. Im Großen und Ganzen habe ich mit PHP das PRG-Pattern verwendet und für den interaktiven Teil JavaScript eingesetzt.
