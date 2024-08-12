@@ -1,0 +1,81 @@
+* {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 12.5em;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10em 0.625em 1em 1em;
+    border-radius: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.625em;
+    font-size: 1.125em;
+    padding: 0.5em;
+}
+
+a:hover{
+    background-color: rgb(255, 255, 255, 70%);
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 0.3125em 0.625em rgba(0, 0, 0, 0.5);
+    margin-bottom: 2em;
+}
+
+body{
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#content {
+    background-color: rgb(170, 168, 183, 70%);
+    text-align: center;
+    margin: 0 30% 0 30%;
+}
+
+#bestellungsNr {
+    background-color: rgb(255, 255, 255, 70%);
+}
+
+form{
+    background-color: rgb(202, 201, 211, 90%);
+    margin: 0 10% 0 10%;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+@media screen and (max-width: 600px){
+    nav {
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 1em;
+    }
+
+    a {
+        font-size: 1em;
+        padding: 0.5em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #content{
+        margin: 0 10% 0 10%;
+    }
+}
